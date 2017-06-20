@@ -11,6 +11,7 @@ class AddToList extends Component {
 		}
 		this.handleChange = this.handleChange.bind(this)
 		this.handleClick = this.handleClick.bind(this)
+		//Need to understand this more!
 	}
 
 	handleChange(e) {

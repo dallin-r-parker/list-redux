@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import './App.css'
 import List from './components/List/List'
 import AddToList from './components/AddToList/AddToList'
+import GetLuke from './components/GetLuke/GetLuke';
 
 class App extends Component {
 
@@ -22,6 +23,9 @@ class App extends Component {
                                 redux gives back the changes on props*/}
           {/*<List title="To-Do's:" chores={this.props.todo}/>*/}
         </p>
+        <hr/>
+        <hr/>
+        <GetLuke/>
       </div>
     );
   }

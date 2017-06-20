@@ -11,7 +11,7 @@ export default function reducer(state, action){
 			}
 		case REMOVE_CHORE:
 			let targetChore = action.payload
-			var newChores = [...state.chores]
+			let newChores = [...state.chores]
 
 			newChores.splice(newChores.indexOf(targetChore), 1);
 
